@@ -1,0 +1,23 @@
+{
+  "name": "bank-system-app",
+  "version": "1.0.0",
+  "description": "This is the seed project for the Banking System Project in the TypeScript module.",
+  "main": "app.js",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/jasmine": "^2.8.7",
+    "jasmine": "^2.6.0",
+    "jasmine-console-reporter": "^2.0.1",
+    "karma": "^1.7.0",
+    "karma-jasmine": "^1.1.0",
+    "karma-phantomjs-launcher": "^1.0.4",
+    "typescript": "~2.6.2",
+    "moment": "^2.22.1"
+  },
+  "scripts": {
+    "test": "tsc && node run_tests.js"
+  },
+  "keywords": [],
+  "author": "Alberto Garza",
+  "license": "ISC"
+}
