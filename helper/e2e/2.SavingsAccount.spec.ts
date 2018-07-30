@@ -1,5 +1,6 @@
-import {AccountFactory} from "../AccountFactory";
 import {TransactionOrigin} from "../../common/enums/TransactionOrigin";
+import {AccountFactory} from "../AccountFactory";
+import {Account} from "../../common/interfaces/Account";
 
 describe("A savings account", () => {
     it("calculates interest correctly with no deposits in between (Savings Account Requirement #1)", () => {

@@ -1,5 +1,7 @@
 import {Account} from "../common/interfaces/Account";
 import { CheckingAccount } from "../student-work/checking-account";
+import { SavingsAccount } from "../student-work/savings-account";
+import { RetirementAccount } from "../student-work/retirement-account";
 
 export class AccountFactory {
 
@@ -8,11 +10,11 @@ export class AccountFactory {
     }
 
     static getSavingsAccountObject(currentDate: Date): Account {
-        throw new Error("You need to implement this :)");
+        return new SavingsAccount(currentDate);
     }
 
     static getRetirementAccountObject(currentDate: Date, accountHolderBirthDate: Date): Account {
-        throw new Error("You need to implement this :)");
+        return new RetirementAccount(currentDate, accountHolderBirthDate);
     }
 
 }
